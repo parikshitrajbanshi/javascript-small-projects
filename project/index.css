@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   
+
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    box-shadow: 0 0 10px gray;
+    border-radius: .5rem;
+    padding: 3rem 1rem;
+}
+
+.container>.body{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+
+        
+       
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+    gap: .25rem;
+}
+.inputs>label{
+    font-size: large;
+}
+.action{
+    text-align: center;
+
+}
+.action>input{
+    padding: 1rew 2rem;
+}

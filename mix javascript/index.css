@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.container{
+    display: flex;
+    flex-direction:column;
+    box-shadow: 0 0 1rem gray;
+    padding: 1rem;
+    
+}
+.count-text{
+    text-align: center;
+    font-size: 8rem;
+    padding: 1rem 4rem;
+}
+.count-action{
+    display: flex;
+    gap: 1rem;
+
+}
+.count-action>input{
+    flex: 1;
+    font-size: 2rem;
+    padding: .5rem 1rem;
+    border: none;
+    border-radius: .25rem;
+    color: white;
+
+}
+
+.count-action>input:first-child{
+    background-color: blue;
+
+}
+.count-action>input:first-child:hover{
+    background-color: darkcyan;
+}
+
+.count-action>input:last-child{
+background-color: red;
+}
+.count-action>input:last-child:hover{
+    background-color: red;
+}
+.count-action>input:nth-child(even){
+    background-color: green;
+}
+.count-action>input:nth-child(even):hover{
+    background-color: darkgreen;
+}

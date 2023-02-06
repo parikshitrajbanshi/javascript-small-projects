@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="cal.css">
+</head>
+<body>
+    <div class="container">
+        <div class="charge-remain-amount">
+            <input type="text" placeholder="0" id="charged-id" value="0">
+        </div>
+        <div class="top-up-actions">
+            <div class="up">
+                <input type="button" value="+500" onclick="pluscharge(500)">
+                <input type="button" value="1000" onclick=" pluscharge(1000)">
+                <input type="button" value="1500" onclick=" pluscharge(1500)">
+                <input type="button" value="2000" onclick=" pluscharge(2000)">
+            </div>
+            
+            <div class="down">
+                <input type="button" value="-500" onclick="pluscharge(500)">
+                <input type="button" value="-1000" onclick="pluscharge(1000)" >
+                <input type="button" value="-1500" onclick="pluscharge(1500)">
+                <input type="button" value="-2000" onclick="pluscharge(2000)">
+            </div>
+        </div>
+
+    </div>
+    <script src="cal.js"></script>
+</body>
+</html>

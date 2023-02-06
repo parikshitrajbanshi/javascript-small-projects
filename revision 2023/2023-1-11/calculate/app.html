@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="app.css">
+    <title>calculate</title>
+</head>
+<body>
+    <div class="container">
+        <div class="container-title">
+            <h1>Arithmetic Calculator</h1>
+        </div>
+        <div class="container-body">
+            <div class="input">
+                <div class="form-input">
+                    <label for="">Num One</label>
+                    <input type="number" value="0" min="0" id="one-id">
+                    
+                </div>
+                <div class="form-input">
+                    <label for="">Num two</label>
+                    <input type="number" value="0" min="0" id="two-id">
+
+                </div>
+                <div class="form-input">
+                    <label for="">Ruselt</label>
+                    <input type="number" value="0" disabled id="result-id">
+                </div>
+            </div>
+            <div class="action">
+                <div class="form-input">
+                    <input type="button" value="+" onclick="addition()">
+                    <input type="button" value="-" onclick="subtraction()">
+                    <input type="button" value="/" onclick="division()">
+                    <input type="button" value="*" onclick="multiply()">
+                    <input type="button" value="%" onclick="reminder()">
+                </div>
+            </div>
+        </div>
+    </div>
+<script src="app.js"></script>
+</body>
+</html>

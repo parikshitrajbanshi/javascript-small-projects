@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="currency.css">
+    <title>currency</title>
+</head>
+<body>
+    <div class="container">
+        <div class="title">
+            <h1>Currency</h1>
+        </div>
+        <div class="form-input">
+            <label for="">From</label>
+            <input type="number" value="0" min="0" id="from">
+        </div>
+        <div class="form-input">
+            <label for="">To</label>
+            <input type="text" value="0" disabled id="to" >
+        </div>
+      
+            <div class="form-input">
+                <input type="button" value="calculate-to-yen" onclick="calculatefunctiony()">
+            </div>
+            <div class="form-input">
+                <input type="button" value="calculate-to-Rupe" onclick="calculatefunctionr()">
+            </div>
+            <div class="form-input">
+                <input type="button" value="calculate-to-kyat" onclick="calculatefunctionk()">
+            </div>
+
+    </div>
+    <script src="currency.js"></script>
+</body>
+</html>

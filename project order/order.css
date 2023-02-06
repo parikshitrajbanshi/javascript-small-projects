@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.action>input{
+    padding: .5rem 1rem;
+}
+.acction-amount-wraper{
+    display: flex;
+    flex-direction: column;
+    background-color: blue;
+}

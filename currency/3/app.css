@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+} */
+.container{
+    display: flex;
+    flex-direction: column-reverse;
+    gap: .5rem;
+    padding: 1rem;
+    box-shadow: 0 0 1rem gray;
+    border-radius: .25rem;
+
+}
+.form-input{
+    display: flex;
+    flex-direction: column;
+    gap: .25rem;
+}
+.form-input>label{
+    font-size: large;
+}
+.form-input>input{
+    font-size: large;
+    padding: .25rem;
+}

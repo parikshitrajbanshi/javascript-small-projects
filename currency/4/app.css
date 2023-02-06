@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    padding: 1rem;
+}
+.form-input{
+    display: flex;
+    gap: .5rem;
+}
+.form-input>input{
+    font-size: large;
+    padding: .25rem;
+}
+.item-list{
+    display: flex;
+    flex-direction: column;
+    font-size: large;
+    gap: .5rem;
+
+}
+.item{
+    padding: .5rem;
+    border: 1px solid gray;
+    background-color: gainsboro;
+    border-radius: .25rem;
+}
+.error{
+    background-color: blue;
+    color: white;
+    /* padding: .25rem 1rem; */
+}
